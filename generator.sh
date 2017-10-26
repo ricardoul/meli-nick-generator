@@ -13,5 +13,6 @@ checkJP(){
 
 	def e1 = new Employee(1, "J*** P*******", 18)
 	assert nickGenerator(1) == "JP"
+	throw Exception("wtf test")
 
 }
